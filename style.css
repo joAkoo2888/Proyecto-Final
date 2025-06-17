@@ -1,0 +1,73 @@
+
+.btn-primary {
+    background-color: #e67e22;
+    border-color: #d35400;
+}
+
+.btn-primary:hover {
+    background-color: #d35400;
+    border-color: #c0392b;
+}
+
+.bg-light {
+    background-color: #ecc781 !important;
+}
+.mb-5{
+    content: "♠";
+}
+body {
+    font-family: 'Arial', sans-serif; 
+    line-height: 1.6;
+    margin: 0; 
+    padding: 0; 
+    background-color: dimgrey;
+}
+
+header {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem; 
+}
+
+#featured-products::after {
+
+    padding: 20px 0;
+}
+
+#featured-products h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.card {
+    border: none; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); 
+}
+
+.card-img-top {
+    height: 200px; 
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+footer {
+    color: white;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

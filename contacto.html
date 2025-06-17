@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="author" content="Joaquin Torres">
+    <title>Videojuejos quejas.</title>
+</head>
+<body>
+    <style>
+        body {
+            background-color: rgb(20, 20, 73);
+            padding: 45px;
+            text-align: center;
+        }
+        section {
+            color: rgb(218, 84, 22);
+            padding: 15px;
+            font-size: 15px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        h2{
+            color: darkgoldenrod;
+        }
+        </style>
+        <h2>Si tienes alguna queja contactate con nosotros llenando este formulario: </h2>
+    
+    <section>
+    <input type="text" name="nombre" placeholder="Nombre y Apellido" class="clase_nombre">
+        <br>
+        <input type="text" name="telefono" placeholder="Teléfono" class="clase_nombre">
+        <br>
+        <input type="text" name="Mail" placeholder="Mail" class="clase_nombre">
+        <br>
+        <label for="acepto">Acepto las Políticas de privacidad</label>
+        <input type="checkbox" name="acepto">
+        <br>
+        <label for="sino">¿Te gustó nuestra página?</label>
+        <br>
+        <label for="si" id="">SI</label>
+        <input type="radio" id="sino" name="sino" value="si">
+        <label for="si">NO</label>
+        <input type="radio" id="sino" name="sino" value="no">
+        <br><br>
+        <label for="comentario">Comentarios</label>
+        <br>
+        <textarea name="comentario" cols="30" rows="10"></textarea>
+        <br>
+        <input type="submit" value="Envia">
+    </section>
+</body>
+</html>
